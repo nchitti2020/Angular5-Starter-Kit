@@ -1,0 +1,9 @@
+﻿<nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+  <div class="nav-bar">
+    <img class="logo" src="/assets/images/fct-logo.svg" alt="FCT Logo" />
+    <div class="nav-item"><a [routerLink]="['/home']">Dashboard</a></div>
+    <div class="nav-item"><a [routerLink]="['/about']">About</a></div>
+    <div class="nav-item"><a [routerLink]="['/search']">Search</a></div>
+    <app-account-menu [user]="currentUser" (signedOut)="handleSignOut()"></app-account-menu>
+  </div>
+</nav>

@@ -1,0 +1,16 @@
+@import "src/theme/theme-variables";
+
+.logo {
+  width: 100px;
+}
+
+.logo-fct-blue {
+  width: 100px;
+  background-color: $fct-blue;
+}
+
+q {
+  font-style: italic;
+  font-size: 1.2rem;
+  quotes: "« " " »";
+}
